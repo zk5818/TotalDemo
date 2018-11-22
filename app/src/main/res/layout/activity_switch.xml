@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    tools:context="com.test.totaldemp.activity.SwitchActivity">
+
+    <Switch
+        android:id="@+id/sw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:shadowColor="@color/c_D3D3D2" />
+
+
+    <ToggleButton
+        android:id="@+id/togglebut1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toggle_selector"
+        android:checked="true"
+        android:textOff="关闭"
+        android:textOn="打开" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <SeekBar
+        android:id="@+id/sb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:progressDrawable="@drawable/seekbar_bg"
+        android:secondaryProgress="20"
+        android:thumb="@drawable/ic_launcher_round" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.test.totaldemp.view.MyToggleButton
+        android:id="@+id/my_togglebut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

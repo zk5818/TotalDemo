@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.totaldemp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_mian"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.ExpandListActivity3" />
+        <activity android:name=".activity.GreenDaoActivity" />
+        <activity android:name=".activity.ListviewControlActivity" />
+        <activity android:name=".activity.MyCameraActivity" />
+        <activity android:name=".activity.AnimationScaleActivity" />
+        <activity android:name=".activity.PaintCanvasActivity" />
+        <activity android:name=".activity.SwitchActivity" />
+        <activity android:name=".activity.TimeWightActivity" />
+        <activity android:name=".activity.CoordinatorLayoutActivity" />
+        <activity android:name=".activity.SeekBarActivity" />
+        <activity android:name=".activity.AdaptActivity" />
+        <activity android:name=".activity.UpdateActivity" />
+        <activity android:name=".activity.ClickEventActivity"></activity>
+    </application>
+
+</manifest>

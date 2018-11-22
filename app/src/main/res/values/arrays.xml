@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="myArrays">
+        <item>小2是</item>
+        <item>小334是</item>
+        <item>小43是</item>
+        <item>小45是</item>
+        <item>小5454是</item>
+    </string-array>
+</resources>
